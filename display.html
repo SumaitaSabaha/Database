@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display</title>
+</head>
+
+<body>
+    <div>
+        <center>
+        {% for row in result %}
+            {% for elem in row %}
+                {{elem}}
+            {% endfor %}
+            </br>
+        {% endfor %}
+        </center>
+    </div>
+</body>
+
+</html>

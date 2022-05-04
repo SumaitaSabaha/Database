@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+    </style>
+    <title>Home</title>
+</head>
+
+<body bgcolor = "add8e6">
+    <table style = "width:100%">
+        <tr>
+            <td>
+            <form method = "POST" action = "/display">
+                <center>
+                    <h2>Enter StateAb to display: </h2> </br>
+                    StateAb: <input type = "text" name = "stateAb" /> <br>
+                    <input type = "submit">
+                </center>
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <td>  
+            <form method = "POST" action = "/insert">
+                <center>
+                    <h2>Enter StateAb to insert: </h2> </br>
+                    StateAb: <input type = "text" name = "stateab" /> <br>
+                    <h2>Enter StateName to insert: </h2> </br>
+                    StateName: <input type = "text" name = "statename" /> <br>
+                    <input type = "submit">
+                </center>
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <form method = "POST" action = "/update">
+                <center>
+                    <h2>Enter StateAb to update: </h2> </br>
+                    StateAb: <input type = "text" name = "stateab" /> <br>
+                    <h2>Enter StateName to update: </h2> </br>
+                    StateName: <input type = "text" name = "statename" /> <br>
+                    <input type = "submit">
+                </center>
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <form method = "POST" action = "/delete">
+                <center>
+                    <h2>Enter StateName to delete: </h2> </br>
+                    StateName: <input type = "text" name = "statename" /> <br>
+                    <input type = "submit">
+                </center>
+            </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
